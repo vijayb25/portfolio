@@ -53,27 +53,27 @@
 
                 <div class="works owl-carousel owl-theme">
                     <section>
-                        <figure><img src="images/website1.jpg" alt=""></figure>
+                        <figure><img src="images/website1.jpg" alt="website thumbnail"></figure>
                         <a href=""></a>
                     </section>
 
                     <section>
-                        <figure><img src="images/website2.jpg" alt=""></figure>
+                        <figure><img src="images/website2.jpg" alt="website thumbnail"></figure>
                         <a href=""></a>
                     </section>
 
                     <section>
-                        <figure><img src="images/website3.jpg" alt=""></figure>
+                        <figure><img src="images/website3.jpg" alt="website thumbnail"></figure>
                         <a href=""></a>
                     </section>
 
                     <section>
-                        <figure><img src="images/website4.jpg" alt=""></figure>
+                        <figure><img src="images/website4.jpg" alt="website thumbnail"></figure>
                         <a href=""></a>
                     </section>
 
                     <section>
-                        <figure><img src="images/website5.jpg" alt=""></figure>
+                        <figure><img src="images/website5.jpg" alt="website thumbnail"></figure>
                         <a href=""></a>
                     </section>
 
