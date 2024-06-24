@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <title>Portfolio</title>
 </head>
@@ -15,10 +16,10 @@
     <header>
         <div class="wrapper">
             <div class="header_box">
-                <h1>Vijay Baclay</h1>
+                <figure><img src="images/logo.png" alt="logo"></figure>
                 <nav class="nav_links">
                     <ul>
-                        <li><a href="#">My Works</a></li>
+                        <li><a href="#works">My Works</a></li>
                         <li><a href="#">Contacts</a></li>
                     </ul>
                 </nav>
@@ -46,39 +47,59 @@
         <div class="wrapper">
             <div class="mid_box">
 
-                <div class="mid_intro">
+                <div class="mid_intro" id="works">
                     <h2>My Works</h2>
-                    <p>Below are some of my works on my previous company where I help develop client websites.</p>
+                    <p>Here are some examples of my work from my previous company, where I contributed to developing the frontend side of the websites.</p>
+
+                    <div class="stacks">
+                        <ul>
+                            <li><i class="fa-brands fa-html5"></i></li>
+                            <li><i class="fa-brands fa-css3-alt"></i></li>
+                            <li><i class="fa-brands fa-wordpress"></i></li>
+                            <li><i class="fa-brands fa-js"></i></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="works owl-carousel owl-theme">
                     <section>
-                        <figure><img src="images/website1.jpg" alt="website thumbnail"></figure>
-                        <a href=""></a>
-                    </section>
-
-                    <section>
                         <figure><img src="images/website2.jpg" alt="website thumbnail"></figure>
-                        <a href=""></a>
+                        <a href="https://www.carefromhearts.com/" target="_blank"></a>
                     </section>
 
                     <section>
                         <figure><img src="images/website3.jpg" alt="website thumbnail"></figure>
-                        <a href=""></a>
+                        <a href="https://www.compassionbh.com/" target="_blank"></a>
                     </section>
 
                     <section>
                         <figure><img src="images/website4.jpg" alt="website thumbnail"></figure>
-                        <a href=""></a>
+                        <a href="https://www.divinecarefortheerlderly.com/" target="_blank"></a>
                     </section>
 
                     <section>
                         <figure><img src="images/website5.jpg" alt="website thumbnail"></figure>
-                        <a href=""></a>
+                        <a href="https://www.glorioustouchmedicalandhealth.org/" target="_blank"></a>
+                    </section>
+
+                    <section>
+                        <figure><img src="images/website6.jpg" alt="website thumbnail"></figure>
+                        <a href="https://www.hawkyouthchapter.org/" target="_blank"></a>
                     </section>
 
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="wrapper">
+            <h2>You can contact me through this platforms</h2>
+            <ul>
+                <li><a href="mailto:jaybaclay025@gmail.com"><i class="fa-solid fa-envelope"></i>Gmail</a></li>
+                <li><a href="https://www.linkedin.com/in/vijay-baclay-3a4837269/" target="_blank"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                <li><a href="skype:live:.cid.7a66f99b50ed6b3c"><i class="fa-brands fa-skype"></i>Skype</a></li>
+            </ul>
         </div>
     </div>
 
