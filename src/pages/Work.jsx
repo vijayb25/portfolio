@@ -2,7 +2,7 @@ import React from 'react';
 
 function Work() {
     return (
-        <div>
+        <div className='wrapper'>
             <h1>Work Page</h1>
             <p>Learn more about us on this page.</p>
         </div>

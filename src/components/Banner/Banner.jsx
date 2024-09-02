@@ -1,4 +1,4 @@
-import SocialLinks from "../Socials/Social"
+import SocialLinks from "../Socials/SocialLinks"
 
 function Banner() {
 
@@ -9,7 +9,7 @@ function Banner() {
                 <div className="bnr_intro w-full min-h-[500px] flex justify-center items-start flex-col gap-4">
                     <h2 className="leading-normal"><span className="text-3xl font-semibold">Greetings! I am</span> <span className="block text-5xl font-bold mt-2">Vijay Baclay</span></h2>
                     <div className="typwriter-container">
-                    <span className="text-md w-max typewriter">Web Developer | Wordpress</span>
+                    <span className="text-md w-max typewriter">Web Developer</span>
                     </div>
                     <p>An aspiring web developer with a passion for creating dynamic and responsive web applications. Proficient in modern web technologies and committed to continuous learning.</p>
                     <a className="block p-3 bg-red-700 rounded-md hover:bg-red-600" href="/BaclayVijay.pdf" download="BaclayVijay.pdf">Resume</a>
