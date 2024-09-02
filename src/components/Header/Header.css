@@ -1,0 +1,22 @@
+
+header{
+   padding: 0 15px;
+
+}
+
+.header_con{
+
+}
+
+.header_logo{
+    font-weight: bold;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.header_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 120px;
+}
