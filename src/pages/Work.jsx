@@ -8,7 +8,7 @@ function Work() {
                 <h2 className="font-bold text-4xl uppercase typewriter">Work Experience</h2>
                 </div>
 
-                <h2 className="font-bold text-4xl"><span className="block text-2xl normal-case mt-4"><small><figure><img src="pro-icon.png" alt="" /></figure></small><a href="https://www.proweaver.com/our-work" target='_blank' className="hover:text-red-500">Proweaver Inc.</a></span></h2>
+                <h2 className="font-bold text-4xl"><span className="block text-2xl normal-case mt-4"><small><figure><img src="pro-icon.png" alt="" /></figure></small><a href="https://www.proweaver.com/our-work" target='_blank' className="underline hover:text-red-500 hover:no-underline">Proweaver Inc.</a></span></h2>
                 <span>Web Developer</span>
                 <span className="block mb-4">2022-2024</span>
                 <p>Convert designs into fully functional WordPress websites with seamless mobile responsiveness.</p>
