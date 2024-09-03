@@ -14,8 +14,8 @@ function Banner() {
                     <p>An aspiring web developer with a passion for creating dynamic and responsive web applications. Proficient in modern web technologies and committed to continuous learning.</p>
                     <a className="block p-3 bg-red-700 rounded-md hover:bg-red-600" href="/BaclayVijay.pdf" download="BaclayVijay.pdf">Resume</a>
                     
-                    <SocialLinks/>
                 </div>
+                    <SocialLinks/>
             </div>
         </div>
         </>

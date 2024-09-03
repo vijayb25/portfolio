@@ -32,7 +32,7 @@ function Header() {
                                 <NavLink to="/about" className={({ isActive }) => isActive ? "text-red-500" : "hover:text-red-600"} > About Me </NavLink>
                             </li>
                             <li>
-                                <NavLink to="/works" className={({ isActive }) => isActive ? "text-red-500" : "hover:text-red-600"} > Works </NavLink>
+                                <NavLink to="/work" className={({ isActive }) => isActive ? "text-red-500" : "hover:text-red-600"} > Work </NavLink>
                             </li>
                             <li>
                                 <NavLink to="/contact" className={({ isActive }) => isActive ? "text-red-500" : "hover:text-red-600"} > Contact </NavLink>
@@ -52,7 +52,7 @@ function Header() {
                         <NavLink to="/about" className={({ isActive }) => isActive ? "text-red-600" : "hover:text-red-500"} > About Me </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/works" className={({ isActive }) => isActive ? "text-red-600" : "hover:text-red-500"} > Works </NavLink>
+                        <NavLink to="/work" className={({ isActive }) => isActive ? "text-red-600" : "hover:text-red-500"} > Work </NavLink>
                     </li>
                     <li>
                         <NavLink to="/contact" className={({ isActive }) => isActive ? "text-red-600" : "hover:text-red-500"} > Contact </NavLink>
