@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
     return (
         <div className='wrapper'>
-            <div className="mt-40">
+            <div className="mt-40 px-4">
                 <div className="typewriter-container w-max">
                     <h2 className="font-bold text-4xl uppercase typewriter">Contacts</h2>
                 </div>
