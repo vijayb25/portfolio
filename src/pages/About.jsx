@@ -13,7 +13,7 @@ function About() {
 
                 <div className="max-w-[800px]">
                     <div className="typewriter-container">
-                        <h1 className="block typewriter font-bold text-4xl">ABOUT ME</h1>
+                        <h1 className="block font-bold text-4xl">ABOUT ME</h1>
                     </div>
                     <p className="mt-5 mb-5">Hi! I'm <span className="font-bold text-xl">Vijay</span>, an aspiring web developer with 2 years hands on experience in web development focusing in wordpress. I am 27 years old and currently looking for opportunities that would help me achieve my career goals. I spend most of my time exploring modern web technologies.</p>
                     <a className="block w-max p-3 bg-red-700 mb-5 rounded-md hover:bg-red-600" href="/BaclayVijay.pdf" download="BaclayVijay.pdf">Resume</a>

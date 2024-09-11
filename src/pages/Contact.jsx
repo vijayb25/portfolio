@@ -5,7 +5,7 @@ function Contact() {
         <div className='wrapper'>
             <div className="mt-40 px-4">
                 <div className="typewriter-container w-max">
-                    <h2 className="font-bold text-4xl uppercase typewriter">Contacts</h2>
+                    <h2 className="font-bold text-4xl uppercase mb-4">Contacts</h2>
                 </div>
                 <p>You can reach me through these platforms. Looking forward to connecting!</p>
                 <div className="flex gap-2 mt-5">
