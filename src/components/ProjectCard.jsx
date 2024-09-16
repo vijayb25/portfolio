@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, link, technologies, thumbnail }) => {
+const ProjectCard = ({ title, description, link, technologies, thumbnail, ghLink }) => {
   return (
     <div className="max-w-sm rounded-lg overflow-hidden shadow-lg bg-white m-4 p-4 max-w-[370px] w-full min-h-[480px]">
       {thumbnail && (
@@ -20,10 +20,17 @@ const ProjectCard = ({ title, description, link, technologies, thumbnail }) => {
           </span>
         ))}
       </div>
-      <div className="px-2 py-4">
+      <div className="pt-2 flex gap-4">
+       <div>
         <i className='fa-solid fa-arrow-up-right-from-square text-black mr-2'></i>
         <a href={link} target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-700 text-sm  normal-case">View Project</a>
+       </div>
+        <div>
+        <i className="fa-brands fa-github text-black mr-2 block"></i>
+        <a href={ghLink} target="_blank" rel="noopener noreferrer" className="text-black hover:text-blue-700 text-sm  normal-case">View Code</a>
+        </div>
       </div>
+
     </div>
   );
 };
