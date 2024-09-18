@@ -12,7 +12,7 @@ function Banner() {
                     <span className="text-md w-max typewriter">Web Developer | Aspiring Software Engineer</span>
                     </div>
                     <p>A web developer and aspiring software engineer with a passion for creating dynamic and responsive web applications. Proficient in modern web technologies and committed to continuous learning.</p>
-                    <a className="block p-3 bg-red-700 rounded-md hover:bg-red-600" href="/Baclay-Vijay.pdf" download="Baclay-Vijay.pdf">Resume</a>
+                    <a className="block p-3 bg-red-700 rounded-md hover:bg-red-600" href="/Baclay_Vijay.pdf" download="Baclay_Vijay.pdf">Resume</a>
                     
                 </div>
                     <SocialLinks/>
