@@ -11,10 +11,7 @@ const EmailForm = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
+    setFormData((prevData) => ({ ...prevData, [name]: value, }));
   };
 
   const handleSubmit = (e) => {
