@@ -1,4 +1,5 @@
 import SocialLinks from "../Socials/SocialLinks"
+import Resume from "../Resume"
 
 function Banner() {
 
@@ -12,7 +13,7 @@ function Banner() {
                     <span className="text-md w-max typewriter">Web Developer | Aspiring Software Engineer</span>
                     </div>
                     <p>A web developer and aspiring software engineer with a passion for creating dynamic and responsive web applications. Proficient in modern web technologies and committed to continuous learning.</p>
-                    <a className="block p-3 bg-red-700 rounded-md hover:bg-red-600" href="/VijayBaclay.pdf" download="VijayBaclay.pdf">Resume</a>
+                   <Resume />
                     
                 </div>
                     <SocialLinks/>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Resume from '../components/Resume';
 import '../index.css'
 
 function About() {
@@ -16,7 +17,8 @@ function About() {
                         <h1 className="block font-bold text-4xl">ABOUT ME</h1>
                     </div>
                     <p className="mt-5 mb-5">Hi! I'm <span className="font-bold text-xl">Vijay</span>, an aspiring web developer with 2 years hands on experience in web development focusing in wordpress. I am 27 years old and currently looking for opportunities that would help me achieve my career goals. I spend most of my time exploring modern web technologies.</p>
-                    <a className="block w-max p-3 bg-red-700 mb-5 rounded-md hover:bg-red-600" href="/Baclay_Vijay.pdf" download="Baclay_Vijay.pdf">Resume</a>
+                    {/* <a className="block w-max p-3 bg-red-700 mb-5 rounded-md hover:bg-red-600" href="/BaclayVijay.pdf" download="BaclayVijay.pdf">Resume</a> */}
+                    <Resume />
 
                     <h2 className="font-bold text-4xl">Skills</h2>
                     <ul className="flex items-center gap-3 mt-4 flex-wrap">
